@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	<meta charset="UTF-8">
+	
+	<title>테이블 연습</title>
+	
+	<style type="text/css">
+		table { border:1px solid black; border-collapse:collapse; border-spacing:0; } 
+		th { border-bottom : 3px double black; background-color:#ddd; } 
+		td { border-bottom : 1px solid black; }
+		th, td { border-right : 1px solid black; padding:0.2em 0.3em; }
+		td:nth-child(1) { text-align:center; } 
+	</style>
+	
+	</head>
+	
+	
+	<body>
+		<h3>테이블 사용하기</h3>
+		<table> 
+			<thead>
+				 <!-- table row의 약자 -->
+					<tr><th>번호</th><th>이름</th></tr>  <!-- 테이블 헤드, 굵게 나옴 -->
+
+			</thead>
+			
+			
+			<tbody>
+				<tr><td>1105</td><td>HALO</td></tr>
+				<tr><td>3021</td><td>YeniCho</td></tr>
+				<tr><td>9001</td><td>MINI</td></tr>
+				<tr><td>2008</td><td>BabySleek</td></tr>
+				<tr><td>1209</td><td>HACHIWANG</td></tr>
+				<tr><td>9012</td><td>Chocol</td></tr>
+				
+			</tbody>
+			<tfoot>
+				<tr><td colspan="2">여기는 tfoot, 컬럼 합치기의 예</td></tr> 
+			</tfoot>
+			
+		</table>
+		
+	</body>
+</html>
